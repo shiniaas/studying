@@ -11,3 +11,5 @@ git commit #permanently stores file changes from the staging area in the reposit
 git log #shows a list of all previous commits
 
 git checkout HEAD filename #restore the file in your working directory to look exactly as it did when you last made a commit.
+
+git reset HEAD filename ＃This command resets the file in the staging area to be the same as the HEAD commit. It does not discard file changes from the working directory, it just removes them from the staging area.
