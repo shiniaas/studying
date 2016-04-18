@@ -16,3 +16,4 @@ git reset HEAD filename ＃This command resets the file in the staging area to b
 
 git branch new_branch #create a new branch,new_branch could be the name of the new branch you create
 
+git checkout branch_name #switch to the new branch
