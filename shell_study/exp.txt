@@ -1,0 +1,3 @@
+grep -Rl Arctic /home/ccuser/workspace/geography #在目录下递归查询关键字并显示具有关键字的文件
+sed 's/snow/rain/' forests.txt #在目标文件中将每一行第一个出现的snow改成rain
+sed 's/snow/rain/g' forests.txt #在目标文件中将所有的snow改为rain
