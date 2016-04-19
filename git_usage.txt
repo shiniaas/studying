@@ -33,3 +33,4 @@ git fetch #This command will not merge changes from the remote into your local r
 git merge origin/master #to integrate origin/master into your local master branch
 
 git push origin your_branch_name #push your branch up to the remote
+
