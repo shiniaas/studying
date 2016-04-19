@@ -25,3 +25,11 @@ git branch -d branch_name #delete the specified branch from your Git project
 git fetch #An easy way to see if changes have been made to the remote and bring the changes down to your local copy
 
 git merge origin/master #Even though Sally's new commits have been fetched to your local copy of the Git project, those commits are on the origin/master branch. Your local master branch has not been updated yet, so you can't view or make changes to any of the work she has added.
+
+git clone remote_location clone_name #clone from remote
+
+git fetch #This command will not merge changes from the remote into your local repository. It brings those changes onto what's called a remote branch. 
+
+git merge origin/master #to integrate origin/master into your local master branch
+
+git push origin your_branch_name #push your branch up to the remote
